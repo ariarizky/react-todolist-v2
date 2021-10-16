@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import TodoForm from "../components/TodoForm";
 import Todos from "../components/Todos";
 
-const TodoList () => {
+const TodoList = () => {
   return (
     <Paper>
       <Header />
@@ -13,5 +13,5 @@ const TodoList () => {
       <Todos />
     </Paper>
   );
-}
+};
 export default TodoList;
