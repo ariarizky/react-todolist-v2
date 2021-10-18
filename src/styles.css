@@ -127,7 +127,7 @@ body. html {
   flex: 1 0 auto;
   text-align: center;
 
-  max-height: 36px;
+  min-height: 40px;
   margin: 16px 0 0;
   font-family: "Homemade Apple", sans-serif;
   font-size: 24px;
