@@ -7,16 +7,16 @@ const Todos = () => {
       text: "Belajar React"
     },
     {
-      text: "Belajar React"
+      text: "Belajar Reacccc  cccct"
     },
     {
-      text: "Belajar React"
+      text: "Belajar React ttt ttttttt"
     },
     {
-      text: "Belajar React"
+      text: "Befsdfsdfjsdfksdfsd lfsdflajar React"
     },
     {
-      text: "Belajar React"
+      text: "Belajar Reaadaljsk dl aksdlakjsdlkjasdjlasjdlja ct"
     },
     {
       text: "Belajar React"
