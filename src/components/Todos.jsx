@@ -13,10 +13,16 @@ const Todos = () => {
       text: "Belajar React ttt ttttttt"
     },
     {
-      text: "Befsdfsdfjsdfksdfsd lfsdflajar React"
+      text: "Befsdfsdfjsdfksdfsd  React"
     },
     {
-      text: "Belajar Reaadaljsk dl aksdlakjsdlkjasdjlasjdlja ct"
+      text: "Belajar Reaadaljsk d"
+    },
+    {
+      text: "Belajar React"
+    },
+    {
+      text: "Belajar React"
     },
     {
       text: "Belajar React"

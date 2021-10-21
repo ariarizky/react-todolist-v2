@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
+
 const TodoForm = ({ addTodo }) => {
   const [value, setValue] = useState("");
 
@@ -11,7 +12,7 @@ const TodoForm = ({ addTodo }) => {
       return;
     }
     addTodo(value);
-    alert(value);
+
     setValue("");
   };
 
@@ -28,9 +29,9 @@ const TodoForm = ({ addTodo }) => {
       </form>
     </section>
   );
-  TodoForm.propTypes = {
-    addTodo: PropTypes.func.isRequired
-  };
 };
 
+TodoForm.propTypes = {
+  addTodo: PropTypes.func.isRequired
+};
 export default TodoForm;
