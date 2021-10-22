@@ -14,24 +14,26 @@ const TodoForm = ({ addTodo, showAdd }) => {
     addTodo(value);
     setValue("");
   };
-
-  return (
-    <section className="add">
-      <form action="" className="add-form" onSubmit={handleFromSubmit}>
-        <input
-          type="text"
-          className="add-input"
-          value={value}
-          onChange={(e) => setValue(e.target.value)}
-        />
-        <button className="add-btn main-black-color">Add</button>
-      </form>
-    </section>
-  );
+  if (showAdd) {
+    return (
+      <section className="add">
+        <form action="" className="add-form" onSubmit={handleFromSubmit}>
+          <input
+            type="text"
+            className="add-input"
+            value={value}
+            onChange={(e) => setValue(e.target.value)}
+          />
+          <button className="add-btn main-black-color">Add</button>
+        </form>
+      </section>
+    );
+  } else {
+    return null;
+  }
 };
-
 TodoForm.propTypes = {
   addTodo: PropTypes.func.isRequired,
-  showAdd: Proptypes.bool.isRequired
+  showAdd: PropTypes.bool.isRequired
 };
 export default TodoForm;
